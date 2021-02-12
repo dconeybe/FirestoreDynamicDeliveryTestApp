@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.library'
+    id 'com.android.dynamic-feature'
     id 'kotlin-android'
 }
 
@@ -8,6 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
+        applicationId "com.denver.fddta.firestore"
         minSdkVersion 30
         targetSdkVersion 30
         versionCode 1
@@ -32,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation project(':app')
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.3.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'

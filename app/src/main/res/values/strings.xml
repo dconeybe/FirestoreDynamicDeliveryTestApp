@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Denver Firestore Dynamic Delivery Test App</string>
+    <string name="title_dynamicfeature">Dynamic Module</string>
 </resources>
