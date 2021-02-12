@@ -3,6 +3,7 @@
     package="com.denver.fddta.firestore">
 
     <application>
+        <activity android:name=".FirestoreActivity" />
     </application>
 
 </manifest>
